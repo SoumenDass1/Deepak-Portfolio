@@ -162,8 +162,8 @@
 
             // Click handler - open PDF in new tab
             resumeBtn.addEventListener('click', function () {
-                // Using placeholder path - update with actual resume path
-                const resumePath = 'assets/resume.pdf';
+                // Open HTML resume which can be printed to PDF
+                const resumePath = 'assets/resume.html';
                 window.open(resumePath, '_blank');
             });
         }
